@@ -17,7 +17,7 @@ const Docs: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>{`fikas.io - Documentation`}</title>
+        <title>{`binoqlars.com - Documentation`}</title>
       </Head>
       <main>
         <TopMenu />

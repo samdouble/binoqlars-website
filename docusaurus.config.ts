@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'fikas.io',
+  title: 'binoqlars.com',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -55,7 +55,7 @@ const config: Config = {
     navbar: {
       title: 'Home',
       logo: {
-        alt: 'fikas.io',
+        alt: 'binoqlars.com',
         src: 'img/logo.svg',
       },
       items: [
@@ -89,7 +89,7 @@ const config: Config = {
           label: 'About',
         },
         {
-          href: 'https://app.fikas.io',
+          href: 'https://app.binoqlars.com',
           label: 'Go to App',
           position: 'right',
         }
@@ -135,12 +135,12 @@ const config: Config = {
             },
             {
               label: 'App',
-              href: 'https://app.fikas.io',
+              href: 'https://app.binoqlars.com',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} fikas.io`,
+      copyright: `Copyright © ${new Date().getFullYear()} binoqlars.com`,
     },
     prism: {
       theme: prismThemes.github,

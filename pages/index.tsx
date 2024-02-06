@@ -23,7 +23,7 @@ const Home: NextPage<HomePageProps> = ({ images }) => {
   return (
     <div>
       <Head>
-        <title>{`fikas.io - Home`}</title>
+        <title>{`binoqlars.com - Home`}</title>
       </Head>
       <main>
         <TopMenu />

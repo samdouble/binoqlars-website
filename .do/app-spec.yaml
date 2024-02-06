@@ -1,0 +1,31 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+domains:
+- domain: binoqlars.com
+  type: PRIMARY
+  zone: binoqlars.com
+features:
+- buildpack-stack=ubuntu-22
+ingress:
+  rules:
+  - component:
+      name: binoqlars-website
+    match:
+      path:
+        prefix: /
+name: binoqlars-website
+region: tor
+services:
+- build_command: yarn build
+  environment_slug: node-js
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: samdouble/binoqlars-website
+  http_port: 3000
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  name: binoqlars-website
+  run_command: USE_SSH=true yarn serve
+  source_dir: /

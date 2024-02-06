@@ -1,6 +1,6 @@
-# fikasio-website
+# binoqlars-website
 
-This is the website for [fikas.io](https://fikas.io)
+This is the website for [binoqlars.com](https://binoqlars.com)
 
 ## Technologies & Languages
 
