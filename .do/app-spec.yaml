@@ -25,7 +25,7 @@ services:
     repo: samdouble/binoqlars-website
   http_port: 3000
   instance_count: 1
-  instance_size_slug: basic-xxs
+  instance_size_slug: apps-s-1vcpu-0.5gb
   name: binoqlars-website
   run_command: USE_SSH=true yarn serve
   source_dir: /
